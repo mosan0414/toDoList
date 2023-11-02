@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+p{
+    font-weight: bold;
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+    background-color: lightgrey;
+    padding: 100px 0;
+}
+
+#inputBox{
+    font-size: 20pt;
+    margin-top: 15px;
+}
+
+#addToDo{
+    font-size: 20pt;
+    padding: 3px 5px ;
+    
+}
+
+
+#toDoList{
+    display: flex;
+    flex-direction: column;
+    list-style: decimal;
+    background-color: blue;
+    border: 2pt solid black;
+    background-color: white;
+    font-size: 20pt;
+    
+
+}
